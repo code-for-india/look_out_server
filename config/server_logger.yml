@@ -1,0 +1,14 @@
+---
+:local: &local
+  :level: 0
+  :cfi_server: log/cfi_server.log
+:server: &server
+  :level: 2
+  :cfi_server: /var/log/codeforindia/cfi_server.log
+:development:
+  <<: *local
+:test:
+  <<: *local
+:production:
+  <<: *server
+  :level: 1

@@ -1,0 +1,13 @@
+---
+:development:
+  :log_level: :devel
+  :stream: :stdout
+  :log_static: true
+:test:
+  :log_level: :devel
+  :stream: :null
+  :log_static: true
+:production:
+  :log_level: :info
+  :stream: :stdout
+  :log_static: true

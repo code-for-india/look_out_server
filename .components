@@ -1,0 +1,9 @@
+---
+:orm: sequel
+:test: none
+:mock: none
+:script: none
+:renderer: slim
+:stylesheet: none
+:namespace: ApiServer
+:migration_format: number
